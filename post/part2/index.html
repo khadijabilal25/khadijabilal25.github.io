@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Khadija Bilal" />
+<meta name="description" content="Personal blog." />
+<meta name="keywords" content="blog, tech" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.82.0" />
+
+<link rel="canonical" href="https://khadijabilal.github.io/post/part2/">
+<meta property="og:title" content="Coding to build my OS" />
+<meta property="og:description" content="Folders and Files: I created all the required folders like the source folder, implementation folder etc. I created a boot folder as well as a header.asm file. This file would contain data that needs to be included in our operating system. It is to help understand that an operating system can be run on our computers. This is because the operating system isn&rsquo;t the first thing that starts on our computer." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://khadijabilal.github.io/post/part2/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-20T11:38:23&#43;06:00" />
+<meta property="article:modified_time" content="2021-04-20T11:38:23&#43;06:00" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Coding to build my OS"/>
+<meta name="twitter:description" content="Folders and Files: I created all the required folders like the source folder, implementation folder etc. I created a boot folder as well as a header.asm file. This file would contain data that needs to be included in our operating system. It is to help understand that an operating system can be run on our computers. This is because the operating system isn&rsquo;t the first thing that starts on our computer."/>
+
+
+<meta itemprop="name" content="Coding to build my OS">
+<meta itemprop="description" content="Folders and Files: I created all the required folders like the source folder, implementation folder etc. I created a boot folder as well as a header.asm file. This file would contain data that needs to be included in our operating system. It is to help understand that an operating system can be run on our computers. This is because the operating system isn&rsquo;t the first thing that starts on our computer."><meta itemprop="datePublished" content="2021-04-20T11:38:23&#43;06:00" />
+<meta itemprop="dateModified" content="2021-04-20T11:38:23&#43;06:00" />
+<meta itemprop="wordCount" content="249">
+<meta itemprop="keywords" content="" />
+
+<link rel="stylesheet" href="https://khadijabilal.github.io/css/layout.css" />
+
+
+<link rel="stylesheet" href="https://khadijabilal.github.io/css/default-dark.css" />
+
+
+
+
+<title>
+
+
+     Coding to build my OS 
+
+</title>
+
+</head>
+
+
+<body>
+<div class="main">
+<header>
+
+<div class="header-bar">
+
+  <nav>
+    <div class="siteTitle">
+      <a href="https://khadijabilal.github.io">Khadija&#39;s OS</a>
+    </div> 
+
+    
+    
+    <a class="nav-item" href="https://khadijabilal.github.io/post/"><div class="nav-item-title">Posts</div></a>
+    
+    <a class="nav-item" href="uploads/CV.JPG"><div class="nav-item-title">CV</div></a>
+    
+
+  </nav>
+
+  
+<div class="social-links-header">
+
+  
+  <a href="mailto:kbilal.bscs19seecs@seecs.edu.pk"><div class="social-link">email</div></a>
+  
+
+  
+  <a href="https://github.com/khadijabilal25" target="_blank"><div class="social-link">gh</div></a>
+  
+
+  
+
+  
+  <a href="https://twitter.com/khadijabilal25" target="_blank"><div class="social-link">twtr</div></a>
+  
+
+  
+
+</div>
+
+
+</div>
+
+
+</header>
+
+
+<article class="post">
+    <h1 class="title"> Coding to build my OS </h1>
+    <div class="content"> <h2 id="folders-and-files">Folders and Files:</h2>
+<p>I created all the required folders like the source folder, implementation folder etc. I created a boot folder as well as a header.asm file. This file would contain data that needs to be included in our operating system. It is to help understand that an operating system can be run on our computers. This is because the operating system isn&rsquo;t the first thing that starts on our computer. The bootloader is the first thing to start on our computers. We need the bootloader because it functions to locate our operating system. Only upon finding it will it be able to start the OS. I used the multi boot2 specification which is supported by most bootloaders.</p>
+<h2 id="code">Code:</h2>
+<p>Files were made global in order to be easily accessible. I entered a code to print &ldquo;OK&rdquo; first. Linker file was for linking the operating system together. Iso folder will have iso file which is holding my operating system. The commands for making my operating system are in my Makefile. I created a variable to hold my x86_64 assembly source files as well as object files. Afterwards I built it again and then ran qemu to emulate the operating system. The output screen printed OK and my Operating System was running.</p>
+<h2 id="youtube-reference">Youtube Reference:</h2>
+<p>The youtube link provided is the same as the one in the previous post called My First Post but will continue from where we left off. <a href="https://youtu.be/FkrpUaGThTQ?t=224">This link</a> will start from around about where I left off.</p>
+ </div>
+    <footer class="post-footer">
+
+  <div class="post-footer-data">
+            
+<div class="tags">
+  
+</div>
+
+    <div class="date"> 2021-04-20 </div>
+    
+  </div>
+</footer>
+
+
+  
+  
+
+<script src="https://utteranc.es/client.js"
+        repo="REPO_NAME"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+
+</article>
+
+  <footer>
+
+  <div class="social-links-footer">
+
+  
+  <a href="mailto:kbilal.bscs19seecs@seecs.edu.pk"><div class="social-link">Email</div></a>
+  
+
+  
+  <a href="https://github.com/khadijabilal25" target="_blank"><div class="social-link">GitHub</div></a>
+  
+
+  
+
+  
+  <a href="https://twitter.com/khadijabilal25" target="_blank"><div class="social-link">Twitter</div></a>
+  
+
+  
+
+  <div class="social-link">
+  <a href="https://khadijabilal.github.io/index.xml" target="_blank">RSS</a>
+  </div>
+
+</div>
+
+
+  <div class="copyright"> Copyright (c) 2017, all rights reserved. </div>
+
+  <div class="poweredby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>.
+  </div>
+
+  </footer>
+
+</div> 
+
+</body>
+</html>
+

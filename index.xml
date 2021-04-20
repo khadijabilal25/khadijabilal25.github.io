@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Khadija&#39;s OS</title>
+    <link>https://khadijabilal.github.io/</link>
+    <description>Recent content on Khadija&#39;s OS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Tue, 20 Apr 2021 11:38:23 +0500</lastBuildDate><atom:link href="https://khadijabilal.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post: My OS</title>
+      <link>https://khadijabilal.github.io/post/khadija/</link>
+      <pubDate>Tue, 20 Apr 2021 11:38:23 +0500</pubDate>
+      
+      <guid>https://khadijabilal.github.io/post/khadija/</guid>
+      <description>Development Deatils of the OS: When creating my 64 bit OS, I consulted the two recommended Youtube videos as a guide suggested by our instructor. I installed Visual Studio code as my text editor and Docker in order to build the image. I used docker for the building process and Qemu for the emulating process. I used Docker to create a reproducible build environment for building my operating system. I created a dockerfile which would contain and describe the steps needed to create the build environment image.</description>
+    </item>
+    
+    <item>
+      <title>Coding to build my OS</title>
+      <link>https://khadijabilal.github.io/post/part2/</link>
+      <pubDate>Tue, 20 Apr 2021 11:38:23 +0600</pubDate>
+      
+      <guid>https://khadijabilal.github.io/post/part2/</guid>
+      <description>Folders and Files: I created all the required folders like the source folder, implementation folder etc. I created a boot folder as well as a header.asm file. This file would contain data that needs to be included in our operating system. It is to help understand that an operating system can be run on our computers. This is because the operating system isn&amp;rsquo;t the first thing that starts on our computer.</description>
+    </item>
+    
+    <item>
+      <title>Coding in C and the NUST logo</title>
+      <link>https://khadijabilal.github.io/post/part3/</link>
+      <pubDate>Tue, 20 Apr 2021 11:38:23 +0700</pubDate>
+      
+      <guid>https://khadijabilal.github.io/post/part3/</guid>
+      <description>C Code: For writing the code in C, I had to install a gcc/g++ compiler so that it would run. This was so that I could display any output using a string whilst my operating system runs. I had many functions like print_clear, print_str, etc. Using print_str for printing a string of symbols (in my case asterisks) and print_newline to design it the way I wanted it to, I printed the NUST logo instead of OK as per the requirement of task2 of my CAO Assignment.</description>
+    </item>
+    
+  </channel>
+</rss>
